@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360"
+     role="img" aria-label="Bar chart of scoring rubric weighting across four evaluation dimensions">
+  <rect width="720" height="360" fill="#F8F6F1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="'Source Serif Pro', Georgia, serif"
+        font-size="18" font-weight="600" fill="#1A1A1A">Figure 1. Rubric weighting by evaluation dimension</text>
+  <line x1="60" y1="300" x2="700" y2="300" stroke="#1A1A1A" stroke-width="1"/>
+  <line x1="60" y1="80" x2="60" y2="300" stroke="#1A1A1A" stroke-width="1"/>
+  <!-- Y-axis ticks 0,10,20,30,40 -->
+  <g font-family="'Source Serif Pro', Georgia, serif" font-size="11" fill="#5C5C5C">
+    <text x="48" y="304" text-anchor="end">0</text>
+    <text x="48" y="248" text-anchor="end">10</text>
+    <text x="48" y="192" text-anchor="end">20</text>
+    <text x="48" y="136" text-anchor="end">30</text>
+    <text x="48" y="84" text-anchor="end">40</text>
+  </g>
+  <!-- gridlines -->
+  <g stroke="#D8D2BE" stroke-width="0.5" stroke-dasharray="3 3">
+    <line x1="60" y1="244" x2="700" y2="244"/>
+    <line x1="60" y1="188" x2="700" y2="188"/>
+    <line x1="60" y1="132" x2="700" y2="132"/>
+  </g>
+  <!-- Bars: each dimension worth 25 units (=140px high). Pricing/Attribution have additional sub-weights illustrated. -->
+  <g>
+    <rect x="100" y="160" width="100" height="140" fill="#7B1F2D"/>
+    <rect x="240" y="160" width="100" height="140" fill="#1A1A1A"/>
+    <rect x="380" y="160" width="100" height="140" fill="#7B1F2D"/>
+    <rect x="520" y="160" width="100" height="140" fill="#1A1A1A"/>
+  </g>
+  <g font-family="'Source Serif Pro', Georgia, serif" font-size="13" fill="#1A1A1A" text-anchor="middle">
+    <text x="150" y="324">Pricing</text>
+    <text x="150" y="340">structure</text>
+    <text x="290" y="324">Attribution</text>
+    <text x="290" y="340">signal</text>
+    <text x="430" y="324">Track</text>
+    <text x="430" y="340">record</text>
+    <text x="570" y="324">Operator</text>
+    <text x="570" y="340">fit</text>
+  </g>
+  <g font-family="'Source Serif Pro', Georgia, serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+    <text x="150" y="240">25%</text>
+    <text x="290" y="240">25%</text>
+    <text x="430" y="240">25%</text>
+    <text x="570" y="240">25%</text>
+  </g>
+</svg>

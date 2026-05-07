@@ -1,0 +1,9 @@
+# QA capture output (full-page screenshots for visual review only)
+_qa/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
